@@ -1,17 +1,11 @@
-.curriculo-bg {
-  background-color: #ffffff;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 .curriculo {
-  max-width: 1400px;
+  padding: 65px 0px;
   margin: 0 auto;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 
 .curriculo img {
+  width: 100%;
+  padding: 0 30px;
   pointer-events: none !important;
 }
 
@@ -27,7 +21,8 @@
 
 @media (max-width: 420px) {
   .curriculo-bg {
-    height: 100vh;
     overflow-y: hidden;
+    padding-bottom: 0;
+    padding-top: 0;
   }
 }
